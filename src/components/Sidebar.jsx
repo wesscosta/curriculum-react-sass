@@ -1,8 +1,19 @@
-import React from 'react'
+import SocialNetworks from './SocialNetworks.jsx'
+import Avatar from '../img/eu.png'
+import "../styles/components/sidebar.sass"
+import InformationContainer from './InformationContainer.jsx'
 
 const Sidebar = () => {
-    return(
-        <div>Sidebar</div>
+    return (
+        <asside id="sidebar">   
+        <img src={Avatar} alt="Weslley Costa" /> 
+        <p className='title'>Desenvolvedor</p>
+        <SocialNetworks />
+        <InformationContainer />
+        <a href="" className='btn'>
+            Download currículo
+        </a>
+    </asside>
     )
 }
 

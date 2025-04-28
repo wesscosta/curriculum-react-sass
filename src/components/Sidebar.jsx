@@ -1,5 +1,5 @@
 import SocialNetworks from './SocialNetworks.jsx'
-import Avatar from '../img/eu.png'
+import Avatar from '../assets/avatar3.png'
 import "../styles/components/sidebar.sass"
 import InformationContainer from './InformationContainer.jsx'
 
